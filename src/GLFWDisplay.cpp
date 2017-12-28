@@ -26,8 +26,31 @@ bool GLFWDisplay::IsClosed()
     return glfwWindowShouldClose(window);
 }
 
+void GLFWDisplay::SetColor(float r, float g, float b)
+{
+    this->r = r;
+    this->g = g;
+    this->b = b;
+}
+
+void GLFWDisplay::GetColor(float* r, float* g, float* b)
+{
+    *r = this->r;
+    *g = this->g;
+    *b = this->b;
+}
+
 void GLFWDisplay::Update()
 {
+    int width, height;
+
+
+    glfwGetFramebufferSize(window, &width, &height);
+    glViewport(0,0,width,height);
+
+    glClearColor(r, g, b, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT);
+
     glfwSwapBuffers(window);
     glfwPollEvents();
 }

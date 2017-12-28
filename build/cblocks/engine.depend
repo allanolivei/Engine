@@ -16,3 +16,20 @@
 	"IDisplay.h"
 	"GLFWDisplay.h"
 
+1514496477 source:/home/allan/Desktop/engine/src/main.cpp
+	<iostream>
+	"IDisplay.h"
+	"GLFWDisplay.h"
+
+1514499048 /home/allan/Desktop/engine/include/IDisplay.h
+	<iostream>
+
+1514498901 /home/allan/Desktop/engine/include/GLFWDisplay.h
+	<iostream>
+	<GLFW/glfw3.h>
+	<cassert>
+	"IDisplay.h"
+
+1514498993 source:/home/allan/Desktop/engine/src/GLFWDisplay.cpp
+	"GLFWDisplay.h"
+

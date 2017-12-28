@@ -10,13 +10,13 @@
 
 Obs.: The window/context is created native using the libraries: Win32, Xlib or Cocoa
 
-#STEPS TO INSTALL
+# STEPS TO INSTALL
 
-##STEPS WINDOW VS2017
+## STEPS WINDOW VS2017
 
-##STEPS MACOS XCode
+## STEPS MACOS XCode
  
-##STEPS LINUX
+## STEPS LINUX
 
 1. Install IDE Codeblocks: http://www.codeblocks.org/downloads/binaries
 
